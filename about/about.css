@@ -1,0 +1,554 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*header logo-start-----------------------------------------------------------------------------------------------------------------*/
+.head-img {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+}
+
+/*header logo-end-------------------------------------------------------------------------------------------------------------------*/
+
+/*nav bar-start---------------------------------------------------------------------------------------------------------------------*/
+.navbar {
+    margin-top: -10px;
+    padding-left: 330px;
+    overflow: hidden;
+    background-color: #f6f2ef;
+}
+
+.navbar a {
+
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.navbar .navbar-right {
+    padding-left: 140px;
+    float: right;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 20px 40px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #f6f2ef;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f2ef;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f6f2ef;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*nav bar-end---------------------------------------------------------------------------------------------------------------------*/
+
+/*footer-start----------------------------------------------------------------------------------------------------------------------*/
+footer {
+    background-color: #fefdf4;
+    color: white;
+    line-height: 1.5;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.ft-legal-list a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #696969;
+}
+
+.ft-title {
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+    font-weight: bold;
+}
+
+.ft-title p {
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: #585858;
+}
+
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+    color: #585858;
+
+}
+
+.ft-main img {
+    height: 75%;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+    margin-left: 0;
+}
+
+.ft-social-list {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem;
+    padding: 0;
+}
+
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: #333;
+    color: white;
+}
+
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .ft-main {
+        justify-content: space-around;
+    }
+
+    .inimg {
+        display: hidden;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 1240px) {
+    .ft-main {
+        justify-content: space-around;
+    }
+
+    .inimg {
+        display: hidden;
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+
+    .inimg {
+        display: hidden;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+
+    .inimg {
+        display: hidden;
+    }
+}
+
+/*index-end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+    width: 950px;
+    border-collapse: collapse;
+    margin: 50px auto;
+    font-size: 16px;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, .4);
+}
+
+.tablebg {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+
+
+}
+
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+
+th {
+    background-color: #272727;
+    color: white;
+    font-weight: bold;
+
+}
+
+td,
+th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 18px;
+
+}
+
+td:hover {
+    font-weight: 600;
+
+}
+
+.tablehead h1 {
+    text-align: center;
+    color: black;
+    background color: aliceblue;
+    margin: 2%;
+}
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+    table {
+        width: 100%;
+    }
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+
+        position: absolute;
+
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+
+        content: attr(data-column);
+
+        color: #000;
+        font-weight: bold;
+    }
+
+}
+
+
+
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    padding: 3%;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    margin: 2%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.about-section h1 {
+    padding: 2%;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container h2 {
+    text-align: center;
+    padding: 1%;
+}
+
+.container p {
+    text-align: center;
+    padding: 1%;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.ourteam {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 1%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+
+    .about-section {
+        width: 100%;
+        margin: 0;
+        display: block;
+        font-size: 1.2em;
+        justify-content: center;
+        text-align: justify;
+
+    }
+
+    .about-section h1 {
+        padding: 0;
+        padding-bottom: 1%;
+    }
+
+    .ourteam {
+        text-align: center;
+        font-size: 2em;
+        padding: 1%;
+    }
+}
+
+
+/*end*/
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.package h1 {
+    text-align: center;
+    justify-content: center;
+    padding: 1%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
